@@ -1028,7 +1028,7 @@ Because \fBfwknop\fR places the IP to be allowed through the firewall within the
 The following examples illustrate the command line arguments that could be supplied to the fwknop client in a few situations:
 .SS "Quick start"
 .sp
-The most effective and easiest way to use \fBfwknop\fR is to have the client generate both an encryption key and an HMAC key, and then save them to the \(lq$HOME/\&.fwknoprc\(rq file along with access request specifics\&. The keys will also need to be transferred to the system where \fBfwknopd\fR is running\&. The also client supports a separate set of encryption and HMAC keys for each SPA destination if multiple fwknopd servers are running on different systems\&.
+The most effective and easiest way to use \fBfwknop\fR is to have the client generate both an encryption key and an HMAC key, and then save them to the \(lq$HOME/\&.fwknoprc\(rq file along with access request specifics\&. The keys will also need to be transferred to the system where \fBfwknopd\fR is running\&. The client also supports a separate set of encryption and HMAC keys for each SPA destination if multiple fwknopd servers are running on different systems\&.
 .sp
 So, assuming that the IP \fI2\&.2\&.2\&.2\fR is the system where \fBfwknopd\fR is deployed and SSH is protected by the firewall on that system in a default\-drop stance, run the client like so to generate encryption and HMAC keys:
 .sp
